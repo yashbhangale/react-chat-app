@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #060606;
+    background: #DAEAF1;
     font-family: 'Roboto', sans-serif;
 }
 section.chat__section {
@@ -18,17 +18,19 @@ section.chat__section {
     max-width: 90%;
     background: #fff;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
 }
 .brand {
     padding: 20px;
-    background: #f1f1f1;
+    background: #ffffff;
     display: flex;
     align-items: center;
+    border-radius: 50px;
 }
 .brand h1 {
     text-transform: capitalize;
     font-size: 20px;
-    color: #444;
+    color: rgb(0, 0, 0);
     margin-left: 10px;
 }
 .message__area{
@@ -42,10 +44,11 @@ section.chat__section {
 textarea {
     width: 100%;
     border: none;
-    padding: 20px;
+    padding: 30px;
     font-size: 16px;
     outline: none;
     background: #FBFBFB;
+    border-radius: 50px;
 }
 
 .message {
@@ -54,15 +57,18 @@ textarea {
     margin-bottom: 40px;
     max-width: 300px;
     position: relative;
+    border-radius: 50px
 }
 .incoming {
     background: #8F8BE8;
     color: #fff;  
+   
 }
 .outgoing {
     background: #e9eafd;
     color: #787986;
     margin-left: auto;
+   
 }
 .message h4 {
     position: absolute;
@@ -70,4 +76,5 @@ textarea {
     left: 0;
     color: #333;
     font-size: 14px;
+    border-radius: 50px;
 }
